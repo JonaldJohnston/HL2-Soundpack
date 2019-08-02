@@ -6,4 +6,4 @@
 -On Windows, press Win+R and then put in "%appdata%\.minecraft\resourcepacks"
 Alternatively, start the game and navigate to Options>Resource Packs and click on the "Open Resource Pack Folder"
 
--drop the .zip file you downloaded into the resourcepacks folder
+-open the .zip file you downloaded and drag the HL2-Soundpack-master folder into the resourcepacks folder
