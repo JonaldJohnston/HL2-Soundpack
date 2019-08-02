@@ -1,0 +1,571 @@
+{
+  "block.fire.ambient": {
+  	"replace":true,
+    "sounds": [
+      "ambient/fire/fire_small1"
+    ],
+    "subtitle": "subtitles.block.fire.ambient"
+  },
+   "block.glass.break": {
+   	"replace":true,
+    "sounds": [
+      "physics/glass/glass_sheet_break1",
+      "physics/glass/glass_sheet_break2",
+      "physics/glass/glass_sheet_break3"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.glass.fall": {
+  	"replace":true,
+    "sounds": [
+      "physics/glass/glass_sheet_impact_soft1",
+      "physics/glass/glass_sheet_impact_soft2",
+      "physics/glass/glass_sheet_impact_soft3"
+    ]
+  },
+  "block.glass.hit": {
+  	"replace":true,
+    "sounds": [
+      "physics/glass/glass_sheet_impact_hard1",
+      "physics/glass/glass_sheet_impact_hard2",
+      "physics/glass/glass_sheet_impact_hard3"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.glass.place": {
+  	"replace":true,
+    "sounds": [
+      "physics/glass/glass_sheet_impact_soft1",
+      "physics/glass/glass_sheet_impact_soft2",
+      "physics/glass/glass_sheet_impact_soft3"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.glass.step": {
+  	"replace":true,
+    "sounds": [
+      "physics/glass/glass_sheet_step1",
+      "physics/glass/glass_sheet_step2",
+      "physics/glass/glass_sheet_step3",
+      "physics/glass/glass_sheet_step4"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.grass.fall": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/grass1",
+      "player/footsteps/grass2",
+      "player/footsteps/grass3",
+      "player/footsteps/grass4"
+    ]
+  },
+  "block.grass.hit": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/grass1",
+      "player/footsteps/grass2",
+      "player/footsteps/grass3",
+      "player/footsteps/grass4"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.grass.place": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/gravel1",
+      "player/footsteps/gravel2",
+      "player/footsteps/gravel3",
+      "player/footsteps/gravel4"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.grass.step": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/grass1",
+      "player/footsteps/grass2",
+      "player/footsteps/grass3",
+      "player/footsteps/grass4"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.wet_grass.fall": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/grass1",
+      "player/footsteps/grass2",
+      "player/footsteps/grass3",
+      "player/footsteps/grass4"
+    ]
+  },
+  "block.wet_grass.hit": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/grass1",
+      "player/footsteps/grass2",
+      "player/footsteps/grass3",
+      "player/footsteps/grass4"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.wet_grass.place": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/gravel1",
+      "player/footsteps/gravel2",
+      "player/footsteps/gravel3",
+      "player/footsteps/gravel4"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.wet_grass.step": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/grass1",
+      "player/footsteps/grass2",
+      "player/footsteps/grass3",
+      "player/footsteps/grass4"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.gravel.break": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/gravel1",
+      "player/footsteps/gravel2",
+      "player/footsteps/gravel3",
+      "player/footsteps/gravel4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.gravel.fall": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/gravel1",
+      "player/footsteps/gravel2",
+      "player/footsteps/gravel3",
+      "player/footsteps/gravel4"
+    ]
+  },
+  "block.gravel.hit": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/gravel1",
+      "player/footsteps/gravel2",
+      "player/footsteps/gravel3",
+      "player/footsteps/gravel4"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.gravel.place": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/gravel1",
+      "player/footsteps/gravel2",
+      "player/footsteps/gravel3",
+      "player/footsteps/gravel4"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.gravel.step": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/gravel1",
+      "player/footsteps/gravel2",
+      "player/footsteps/gravel3",
+      "player/footsteps/gravel4"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.ladder.break": {
+  	"replace":true,
+    "sounds": [
+      "physics/wood/wood_plank_break1",
+      "physics/wood/wood_plank_break2",
+      "physics/wood/wood_plank_break3",
+      "physics/wood/wood_plank_break4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.ladder.fall": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/ladder1",
+      "player/footsteps/ladder2",
+      "player/footsteps/ladder3",
+      "player/footsteps/ladder4"
+    ]
+  },
+  "block.ladder.hit": {
+  	"replace":true,
+    "sounds": [
+      "physics/wood/wood_plank_impact_hard1",
+      "physics/wood/wood_plank_impact_hard2",
+      "physics/wood/wood_plank_impact_hard3",
+      "physics/wood/wood_plank_impact_hard4",
+      "physics/wood/wood_plank_impact_hard5"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.ladder.place": {
+  	"replace":true,
+    "sounds": [
+      "physics/wood/wood_plank_impact_soft1",
+      "physics/wood/wood_plank_impact_soft2",
+      "physics/wood/wood_plank_impact_soft3"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.ladder.step": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/ladder1",
+      "player/footsteps/ladder2",
+      "player/footsteps/ladder3",
+      "player/footsteps/ladder4"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.metal.break": {
+  	"replace":true,
+    "sounds": [
+      "physics/metal/metal_box_break1",
+      "physics/metal/metal_box_break2"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.metal.fall": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/metal1",
+      "player/footsteps/metal2",
+      "player/footsteps/metal3",
+      "player/footsteps/metal4"
+    ]
+  },
+  "block.metal.hit": {
+  	"replace":true,
+    "sounds": [
+      "physics/metal/metal_solid_impact_hard1",
+      "physics/metal/metal_solid_impact_hard4",
+      "physics/metal/metal_solid_impact_hard5",
+      "physics/metal/metal_solid_impact_soft1",
+      "physics/metal/metal_solid_impact_hard2",
+      "physics/metal/metal_solid_impact_hard3"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.metal.place": {
+  	"replace":true,
+    "sounds": [
+      "physics/metal/metal_solid_impact_hard1",
+      "physics/metal/metal_solid_impact_hard4",
+      "physics/metal/metal_solid_impact_hard5",
+      "physics/metal/metal_solid_impact_soft1",
+      "physics/metal/metal_solid_impact_hard2",
+      "physics/metal/metal_solid_impact_hard3"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.metal.step": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/metal1",
+      "player/footsteps/metal2",
+      "player/footsteps/metal3",
+      "player/footsteps/metal4"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.sand.break": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/sand1",
+      "player/footsteps/sand2",
+      "player/footsteps/sand3",
+      "player/footsteps/sand4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.sand.fall": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/sand1",
+      "player/footsteps/sand2",
+      "player/footsteps/sand3",
+      "player/footsteps/sand4"
+    ]
+  },
+  "block.sand.hit": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/sand1",
+      "player/footsteps/sand2",
+      "player/footsteps/sand3",
+      "player/footsteps/sand4"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.sand.place": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/sand1",
+      "player/footsteps/sand2",
+      "player/footsteps/sand3",
+      "player/footsteps/sand4"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.sand.step": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/sand1",
+      "player/footsteps/sand2",
+      "player/footsteps/sand3",
+      "player/footsteps/sand4"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.slime_block.break": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/mud1",
+      "player/footsteps/mud2",
+      "player/footsteps/mud3",
+      "player/footsteps/mud4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.slime_block.fall": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/mud1",
+      "player/footsteps/mud2",
+      "player/footsteps/mud3",
+      "player/footsteps/mud4"
+    ]
+  },
+  "block.slime_block.hit": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/mud1",
+      "player/footsteps/mud2",
+      "player/footsteps/mud3",
+      "player/footsteps/mud4"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.slime_block.place": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/mud1",
+      "player/footsteps/mud2",
+      "player/footsteps/mud3",
+      "player/footsteps/mud4"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.slime_block.step": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/mud1",
+      "player/footsteps/mud2",
+      "player/footsteps/mud3",
+      "player/footsteps/mud4"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.snow.break": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/sand1",
+      "player/footsteps/sand2",
+      "player/footsteps/sand3",
+      "player/footsteps/sand4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.snow.fall": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/sand1",
+      "player/footsteps/sand2",
+      "player/footsteps/sand3",
+      "player/footsteps/sand4"
+    ]
+  },
+  "block.snow.hit": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/sand1",
+      "player/footsteps/sand2",
+      "player/footsteps/sand3",
+      "player/footsteps/sand4"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.snow.place": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/sand1",
+      "player/footsteps/sand2",
+      "player/footsteps/sand3",
+      "player/footsteps/sand4"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.snow.step": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/sand1",
+      "player/footsteps/sand2",
+      "player/footsteps/sand3",
+      "player/footsteps/sand4"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.stone.break": {
+  	"replace":true,
+    "sounds": [
+      "physics/concrete/concrete_break2",
+      "physics/concrete/concrete_break3"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.stone.fall": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/concrete1",
+      "player/footsteps/concrete2",
+      "player/footsteps/concrete3",
+      "player/footsteps/concrete4"
+    ]
+  },
+  "block.stone.hit": {
+  	"replace":true,
+    "sounds": [
+      "physics/concrete/rock_impact_soft1",
+      "physics/concrete/rock_impact_soft2",
+      "physics/concrete/rock_impact_soft3"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.stone.place": {
+  	"replace":true,
+    "sounds": [
+      "physics/concrete/rock_impact_soft1",
+      "physics/concrete/rock_impact_soft2",
+      "physics/concrete/rock_impact_soft3"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.stone.step": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/concrete1",
+      "player/footsteps/concrete2",
+      "player/footsteps/concrete3",
+      "player/footsteps/concrete4"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.wood.break": {
+  	"replace":true,
+    "sounds": [
+      "physics/wood/wood_plank_break1",
+      "physics/wood/wood_plank_break2",
+      "physics/wood/wood_plank_break3",
+      "physics/wood/wood_plank_break4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.wood.fall": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/wood1",
+      "player/footsteps/wood2",
+      "player/footsteps/wood3",
+      "player/footsteps/wood4"
+    ]
+  },
+  "block.wood.hit": {
+  	"replace":true,
+    "sounds": [
+      "physics/wood/wood_plank_impact_hard1",
+      "physics/wood/wood_plank_impact_hard2",
+      "physics/wood/wood_plank_impact_hard3",
+      "physics/wood/wood_plank_impact_hard4",
+      "physics/wood/wood_plank_impact_hard5"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.wood.place": {
+  	"replace":true,
+    "sounds": [
+      "physics/wood/wood_plank_impact_soft1",
+      "physics/wood/wood_plank_impact_soft2",
+      "physics/wood/wood_plank_impact_soft3"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.wood.step": {
+  	"replace":true,
+    "sounds": [
+      "player/footsteps/wood1",
+      "player/footsteps/wood2",
+      "player/footsteps/wood3",
+      "player/footsteps/wood4"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.wool.break": {
+  	"replace":true,
+    "sounds": [
+      "dig/cloth1",
+      "dig/cloth2",
+      "dig/cloth3",
+      "dig/cloth4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.wool.fall": {
+  	"replace":true,
+    "sounds": [
+      "step/cloth1",
+      "step/cloth2",
+      "step/cloth3",
+      "step/cloth4"
+    ]
+  },
+  "block.wool.hit": {
+  	"replace":true,
+    "sounds": [
+      "step/cloth1",
+      "step/cloth2",
+      "step/cloth3",
+      "step/cloth4"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.wool.place": {
+  	"replace":true,
+    "sounds": [
+      "dig/cloth1",
+      "dig/cloth2",
+      "dig/cloth3",
+      "dig/cloth4"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.wool.step": {
+  	"replace":true,
+    "sounds": [
+      "step/cloth1",
+      "step/cloth2",
+      "step/cloth3",
+      "step/cloth4"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  }
+}
