@@ -9,9 +9,18 @@
    "block.glass.break": {
    	"replace":true,
     "sounds": [
-      "physics/glass/glass_sheet_break1",
-      "physics/glass/glass_sheet_break2",
-      "physics/glass/glass_sheet_break3"
+      {
+      	"name":"physics/glass/glass_sheet_break1",
+      	"pitch": 1.35
+      },
+      {
+      	"name":"physics/glass/glass_sheet_break2",
+      	"pitch": 1.35
+      },
+      {
+      	"name":"physics/glass/glass_sheet_break3",
+      	"pitch": 1.35
+      }
     ],
     "subtitle": "subtitles.block.generic.break"
   },
@@ -26,18 +35,37 @@
   "block.glass.hit": {
   	"replace":true,
     "sounds": [
-      "physics/glass/glass_sheet_impact_hard1",
-      "physics/glass/glass_sheet_impact_hard2",
-      "physics/glass/glass_sheet_impact_hard3"
+      {
+      	"name":"physics/glass/glass_sheet_impact_hard1",
+      	"pitch": 1.35
+      },
+      {
+      	"name":"physics/glass/glass_sheet_impact_hard2",
+      	"pitch": 1.35
+      },
+      {
+      	"name":"physics/glass/glass_sheet_impact_hard3",
+      	"pitch": 1.35
+      }
     ],
     "subtitle": "subtitles.block.generic.hit"
   },
   "block.glass.place": {
   	"replace":true,
     "sounds": [
-      "physics/glass/glass_sheet_impact_soft1",
-      "physics/glass/glass_sheet_impact_soft2",
-      "physics/glass/glass_sheet_impact_soft3"
+
+      {
+      	"name":"physics/glass/glass_sheet_impact_soft1",
+      	"pitch": 1.35
+      },
+      {
+      	"name":"physics/glass/glass_sheet_impact_soft2",
+      	"pitch": 1.35
+      },
+      {
+      	"name":"physics/glass/glass_sheet_impact_soft3",
+      	"pitch": 1.35
+      }
     ],
     "subtitle": "subtitles.block.generic.place"
   },
@@ -181,10 +209,23 @@
   "block.ladder.break": {
   	"replace":true,
     "sounds": [
-      "physics/wood/wood_plank_break1",
-      "physics/wood/wood_plank_break2",
-      "physics/wood/wood_plank_break3",
-      "physics/wood/wood_plank_break4"
+
+      {
+      	"name":"physics/wood/wood_plank_break1",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/wood/wood_plank_break2",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/wood/wood_plank_break3",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/wood/wood_plank_break4",
+      	"pitch": 1.26
+      }
     ],
     "subtitle": "subtitles.block.generic.break"
   },
@@ -200,20 +241,45 @@
   "block.ladder.hit": {
   	"replace":true,
     "sounds": [
-      "physics/wood/wood_plank_impact_hard1",
-      "physics/wood/wood_plank_impact_hard2",
-      "physics/wood/wood_plank_impact_hard3",
-      "physics/wood/wood_plank_impact_hard4",
-      "physics/wood/wood_plank_impact_hard5"
+ 
+      {
+      	"name":"physics/wood/wood_plank_impact_hard1",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/wood/wood_plank_impact_hard2",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/wood/wood_plank_impact_hard3",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/wood/wood_plank_impact_hard4",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/wood/wood_plank_impact_hard5",
+      	"pitch": 1.26
+      }
     ],
     "subtitle": "subtitles.block.generic.hit"
   },
   "block.ladder.place": {
   	"replace":true,
     "sounds": [
-      "physics/wood/wood_plank_impact_soft1",
-      "physics/wood/wood_plank_impact_soft2",
-      "physics/wood/wood_plank_impact_soft3"
+      {
+      	"name":"physics/wood/wood_plank_impact_soft1",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/wood/wood_plank_impact_soft2",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/wood/wood_plank_impact_soft3",
+      	"pitch": 1.26
+      }
     ],
     "subtitle": "subtitles.block.generic.place"
   },
@@ -230,51 +296,118 @@
   "block.metal.break": {
   	"replace":true,
     "sounds": [
-      "physics/metal/metal_box_break1",
-      "physics/metal/metal_box_break2"
+      {
+      	"name":"physics/metal/metal_box_break1",
+      	"pitch": 0.80
+      },
+      {
+      	"name":"physics/metal/metal_box_break2",
+      	"pitch": 0.80
+      }
     ],
     "subtitle": "subtitles.block.generic.break"
   },
   "block.metal.fall": {
   	"replace":true,
     "sounds": [
-      "player/footsteps/metal1",
-      "player/footsteps/metal2",
-      "player/footsteps/metal3",
-      "player/footsteps/metal4"
+      {
+      	"name":"player/footsteps/metal1",
+      	"pitch": 0.75
+      },
+      {
+      	"name":"player/footsteps/metal2",
+      	"pitch": 0.75
+      },
+      {
+      	"name":"player/footsteps/metal3",
+      	"pitch": 0.75
+      },
+      {
+      	"name":"player/footsteps/metal4",
+      	"pitch": 0.75
+      }
     ]
   },
   "block.metal.hit": {
   	"replace":true,
     "sounds": [
-      "physics/metal/metal_solid_impact_hard1",
-      "physics/metal/metal_solid_impact_hard4",
-      "physics/metal/metal_solid_impact_hard5",
-      "physics/metal/metal_solid_impact_soft1",
-      "physics/metal/metal_solid_impact_hard2",
-      "physics/metal/metal_solid_impact_hard3"
+      {
+      	"name":"physics/metal/metal_solid_impact_hard1",
+      	"pitch": 0.80
+      },
+      {
+      	"name":"physics/metal/metal_solid_impact_hard4",
+      	"pitch": 0.80
+      },
+      {
+      	"name":"physics/metal/metal_solid_impact_hard5",
+      	"pitch": 0.80
+      },
+      {
+      	"name":"physics/metal/metal_solid_impact_soft1",
+      	"pitch": 0.80
+      },
+      {
+      	"name":"physics/metal/metal_solid_impact_hard2",
+      	"pitch": 0.80
+      },
+      {
+      	"name":"physics/metal/metal_solid_impact_hard3",
+      	"pitch": 0.80
+      }
     ],
     "subtitle": "subtitles.block.generic.hit"
   },
   "block.metal.place": {
   	"replace":true,
     "sounds": [
-      "physics/metal/metal_solid_impact_hard1",
-      "physics/metal/metal_solid_impact_hard4",
-      "physics/metal/metal_solid_impact_hard5",
-      "physics/metal/metal_solid_impact_soft1",
-      "physics/metal/metal_solid_impact_hard2",
-      "physics/metal/metal_solid_impact_hard3"
+      {
+      	"name":"physics/metal/metal_solid_impact_hard1",
+      	"pitch": 0.80
+      },
+      {
+      	"name":"physics/metal/metal_solid_impact_hard4",
+      	"pitch": 0.80
+      },
+      {
+      	"name":"physics/metal/metal_solid_impact_hard5",
+      	"pitch": 0.80
+      },
+      {
+      	"name":"physics/metal/metal_solid_impact_soft1",
+      	"pitch": 0.80
+      },
+      {
+      	"name":"physics/metal/metal_solid_impact_hard2",
+      	"pitch": 0.80
+      },
+      {
+      	"name":"physics/metal/metal_solid_impact_hard3",
+      	"pitch": 0.80
+      }
+
     ],
     "subtitle": "subtitles.block.generic.place"
   },
   "block.metal.step": {
   	"replace":true,
     "sounds": [
-      "player/footsteps/metal1",
-      "player/footsteps/metal2",
-      "player/footsteps/metal3",
-      "player/footsteps/metal4"
+      {
+      	"name":"player/footsteps/metal1",
+      	"pitch": 0.70
+      },
+      {
+      	"name":"player/footsteps/metal2",
+      	"pitch": 0.70
+      },
+      {
+      	"name":"player/footsteps/metal3",
+      	"pitch": 0.70
+      },
+      {
+      	"name":"player/footsteps/metal4",
+      	"pitch": 0.70
+      }
     ],
     "subtitle": "subtitles.block.generic.footsteps"
   },
@@ -428,8 +561,14 @@
   "block.stone.break": {
   	"replace":true,
     "sounds": [
-      "physics/concrete/concrete_break2",
-      "physics/concrete/concrete_break3"
+      {
+      	"name":"physics/concrete/concrete_break2",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/concrete/concrete_break3",
+      	"pitch": 1.26
+      }
     ],
     "subtitle": "subtitles.block.generic.break"
   },
@@ -445,18 +584,36 @@
   "block.stone.hit": {
   	"replace":true,
     "sounds": [
-      "physics/concrete/rock_impact_soft1",
-      "physics/concrete/rock_impact_soft2",
-      "physics/concrete/rock_impact_soft3"
+      {
+      	"name":"physics/concrete/rock_impact_soft1",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/concrete/rock_impact_soft2",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/concrete/rock_impact_soft3",
+      	"pitch": 1.26
+      }
     ],
     "subtitle": "subtitles.block.generic.hit"
   },
   "block.stone.place": {
   	"replace":true,
     "sounds": [
-      "physics/concrete/rock_impact_soft1",
-      "physics/concrete/rock_impact_soft2",
-      "physics/concrete/rock_impact_soft3"
+      {
+      	"name":"physics/concrete/rock_impact_soft1",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/concrete/rock_impact_soft2",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/concrete/rock_impact_soft3",
+      	"pitch": 1.26
+      }
     ],
     "subtitle": "subtitles.block.generic.place"
   },
@@ -473,10 +630,22 @@
   "block.wood.break": {
   	"replace":true,
     "sounds": [
-      "physics/wood/wood_plank_break1",
-      "physics/wood/wood_plank_break2",
-      "physics/wood/wood_plank_break3",
-      "physics/wood/wood_plank_break4"
+      {
+      	"name":"physics/wood/wood_plank_break1",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/wood/wood_plank_break2",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/wood/wood_plank_break3",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/wood/wood_plank_break4",
+      	"pitch": 1.26
+      }
     ],
     "subtitle": "subtitles.block.generic.break"
   },
@@ -492,20 +661,44 @@
   "block.wood.hit": {
   	"replace":true,
     "sounds": [
-      "physics/wood/wood_plank_impact_hard1",
-      "physics/wood/wood_plank_impact_hard2",
-      "physics/wood/wood_plank_impact_hard3",
-      "physics/wood/wood_plank_impact_hard4",
-      "physics/wood/wood_plank_impact_hard5"
+      {
+      	"name":"physics/wood/wood_plank_impact_hard1",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/wood/wood_plank_impact_hard2",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/wood/wood_plank_impact_hard3",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/wood/wood_plank_impact_hard4",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/wood/wood_plank_impact_hard5",
+      	"pitch": 1.26
+      }
     ],
     "subtitle": "subtitles.block.generic.hit"
   },
   "block.wood.place": {
   	"replace":true,
     "sounds": [
-      "physics/wood/wood_plank_impact_soft1",
-      "physics/wood/wood_plank_impact_soft2",
-      "physics/wood/wood_plank_impact_soft3"
+      {
+      	"name":"physics/wood/wood_plank_impact_soft1",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/wood/wood_plank_impact_soft2",
+      	"pitch": 1.26
+      },
+      {
+      	"name":"physics/wood/wood_plank_impact_soft3",
+      	"pitch": 1.26
+      }
     ],
     "subtitle": "subtitles.block.generic.place"
   },
@@ -518,54 +711,6 @@
       "player/footsteps/wood4"
     ],
     "subtitle": "subtitles.block.generic.footsteps"
-  },
-  "block.wool.break": {
-  	"replace":true,
-    "sounds": [
-      "dig/cloth1",
-      "dig/cloth2",
-      "dig/cloth3",
-      "dig/cloth4"
-    ],
-    "subtitle": "subtitles.block.generic.break"
-  },
-  "block.wool.fall": {
-  	"replace":true,
-    "sounds": [
-      "step/cloth1",
-      "step/cloth2",
-      "step/cloth3",
-      "step/cloth4"
-    ]
-  },
-  "block.wool.hit": {
-  	"replace":true,
-    "sounds": [
-      "step/cloth1",
-      "step/cloth2",
-      "step/cloth3",
-      "step/cloth4"
-    ],
-    "subtitle": "subtitles.block.generic.hit"
-  },
-  "block.wool.place": {
-  	"replace":true,
-    "sounds": [
-      "dig/cloth1",
-      "dig/cloth2",
-      "dig/cloth3",
-      "dig/cloth4"
-    ],
-    "subtitle": "subtitles.block.generic.place"
-  },
-  "block.wool.step": {
-  	"replace":true,
-    "sounds": [
-      "step/cloth1",
-      "step/cloth2",
-      "step/cloth3",
-      "step/cloth4"
-    ],
-    "subtitle": "subtitles.block.generic.footsteps"
   }
 }
+
