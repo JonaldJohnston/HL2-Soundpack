@@ -348,11 +348,11 @@
       	"pitch": 0.80
       },
       {
-      	"name":"physics/metal/metal_solid_impact_hard2",
+      	"name":"physics/metal/metal_solid_impact_soft2",
       	"pitch": 0.80
       },
       {
-      	"name":"physics/metal/metal_solid_impact_hard3",
+      	"name":"physics/metal/metal_solid_impact_soft3",
       	"pitch": 0.80
       }
     ],
@@ -378,11 +378,11 @@
       	"pitch": 0.80
       },
       {
-      	"name":"physics/metal/metal_solid_impact_hard2",
+      	"name":"physics/metal/metal_solid_impact_soft2",
       	"pitch": 0.80
       },
       {
-      	"name":"physics/metal/metal_solid_impact_hard3",
+      	"name":"physics/metal/metal_solid_impact_soft3",
       	"pitch": 0.80
       }
 
@@ -711,6 +711,49 @@
       "player/footsteps/wood4"
     ],
     "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "entity.arrow.shoot": {
+  	"replace":true,
+    "sounds": [
+      "weapons/crossbow/fire1"
+    ],
+    "subtitle": "subtitles.entity.arrow.shoot"
+  },
+  "entity.arrow.hit": {
+  	"replace":true,
+    "sounds": [
+      "weapons/crossbow/hit1"
+    ],
+    "subtitle": "subtitles.entity.arrow.hit"
+  },
+  "item.crossbow.loading_end": {
+  	"replace":true,
+    "sounds": [
+      {
+        "name": "weapons/crossbow/bolt_load1",
+        "volume": 1
+      },
+      {
+        "name": "weapons/crossbow/bolt_load2",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.item.crossbow.load"
+  },
+  "item.crossbow.shoot": {
+  	"replace":true,
+    "sounds": [
+      "weapons/crossbow/fire1"
+    ],
+    "subtitle": "subtitles.item.crossbow.shoot"
+  },
+  "item.crossbow.hit": {
+  	"replace":true,
+    "sounds": [
+      "weapons/crossbow/hit1"
+    ],
+    "subtitle": "subtitles.item.crossbow.hit"
   }
+
 }
 
