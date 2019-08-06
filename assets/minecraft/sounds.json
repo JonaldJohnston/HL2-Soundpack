@@ -753,6 +753,62 @@
       "weapons/crossbow/hit1"
     ],
     "subtitle": "subtitles.item.crossbow.hit"
+  },
+  "ui.button.click": {
+  	"replace":true,
+    "sounds": [
+      "ui/buttonclickrelease"
+    ]
+  },
+  "entity.player.big_fall": {
+  	"replace":true,
+    "sounds": [
+      "player/pl_fallpain1",
+      "player/pl_fallpain3"
+    ],
+    "subtitle": "subtitles.entity.generic.big_fall"
+  },
+  
+  "entity.player.death": {
+  	"replace":true,
+    "sounds": [
+      "hl1/fvox/flatline"
+    ],
+    "subtitle": "subtitles.entity.player.death"
+  },
+  "entity.player.hurt": {
+  	"replace":true,
+    "sounds": [
+      "player/pl_pain5",
+      "player/pl_pain6",
+      "player/pl_pain7"
+    ],
+    "subtitle": "subtitles.entity.player.hurt"
+  },
+  "entity.player.hurt_drown": {
+  	"replace":true,
+    "sounds": [
+      "player/pl_drown1",
+      "player/pl_drown2",
+      "player/pl_drown3"
+    ]
+  },
+  "entity.player.hurt_on_fire": {
+  	"replace":true,
+    "sounds": [
+      "player/pl_burnpain1",
+      "player/pl_burnpain2",
+      "player/pl_burnpain3"
+    ]
+  },
+  
+  "entity.player.small_fall": {
+  	"replace":true,
+    "sounds": [
+      "player/pl_fallpain1",
+      "player/pl_fallpain3"
+    ],
+    "subtitle": "subtitles.entity.generic.small_fall"
   }
 
 }
